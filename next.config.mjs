@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  output: "standalone", // setting to deploy outside of Vercel
+}
 
-export default nextConfig;
+export default nextConfig
